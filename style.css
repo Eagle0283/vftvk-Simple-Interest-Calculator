@@ -1,12 +1,13 @@
 body {background-color:white}
 h1{
-  font-family: "arial";
+  font-family: "couriel";
+  font-size: 40px;
   color:grey;
   font-weight: 800;
   }
 p{
   font-family: "arial";
-  font-size: 18px;
+  font-size: 17px;
   position: relative;
   left: 80px;
 }
@@ -14,5 +15,5 @@ h2{
   font-family: "arial";
   color:black;
   font-weight: 100;
-  font-size: 18px;
-  }	
+  font-size: 17px;
+  }
