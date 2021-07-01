@@ -6,14 +6,27 @@
     <body>
         <h1>Simple Interest Calculator</h1>
 
-        <p>
-        Amount <input type="number"  id="principal">  <br><br/>
-        Interest Rate <input type="number"  id="rate">  <br><br/>
-        No. of Years <input type="number"  id="years">
-        <p>    
+        <h2>
+        <label for="Amount">Amount</label>
+        <p1><input type="text" id="Amount" name="Amount" size="20"></p1>   
+        </h2>
+        <h3>
+        
+        <div>  
+        <output id="myoutput" class="lblFloat"></output>
+        <label for="myslider" id="mylabel" class="lblFloat">Interest Rate</label>
+        <p2>
+        <input type="range" id="myslider" min="1" max="100"/>
+        <input type="text" id="mylabel" name="mylabel" size="1"></p2>%  
+        </div>
+        </h3>
+        <h4>
+        No. of Years <input type="number"  id="years"> 
+        </h4>   
 
-        <button onclick="compute()">Compute Interest</button>
-        <h2>&#169 Everyone Can Get Rich</h2>
+        <h5>
+      <button onclick="compute()">Compute Interest</button>
+        </h5>
+        <p>&#169 Everyone Can Get Rich</p>
     </body>
 </html>
-
