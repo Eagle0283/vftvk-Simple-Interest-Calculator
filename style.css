@@ -10,7 +10,7 @@ h2{
   font-size: 17px;
   position: relative;
   left: 80px;
-  font-weight: 550;
+  font-weight: 500;
 }
 p1{
  margin-left: 50px; 
@@ -27,7 +27,7 @@ h3{
   font-size: 17px;
   position: relative;
   left: 80px;
-  font-weight: 550;
+  font-weight: 500;
 }
 
 .lblFloat
@@ -42,19 +42,19 @@ h4{
   font-size: 17px;
   position: relative;
   left: 80px;
-  font-weight: 550;
+  font-weight: 500;
 }
 h5{
   font-family: "arial";
   font-size: 17px;
   position: relative;
   left: 80px;
-  font-weight: 550;
+  font-weight: 500;
 }
 p{
   font-family: "arial";
   color:black;
   font-weight: 100;
-  font-size: 17px;
-   font-weight: 550;
+  font-size: 17 px;
+   font-weight: 500;
   }
