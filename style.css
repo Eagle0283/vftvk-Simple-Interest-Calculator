@@ -32,6 +32,7 @@ p3{
    margin-left: 110px;
    margin-top: -17px;
    font-size: 17px;
+   
 }
 .range-input .value {
   font-weight:500;
@@ -40,7 +41,9 @@ p3{
   overflow:hidden;
   margin-left:135px;
   margin-top: -31px;
-}
+  
+  }
+
 p7{
   font-size: 17px;
   font-weight:500;
@@ -49,8 +52,9 @@ p7{
   overflow:hidden;
   position: absolute;
   margin-left: 360px;
-  margin-top: -50px;
-  }
+  margin-top: -40px;
+  
+}
 h4{
   font-family: "arial";
   font-size: 17px;
