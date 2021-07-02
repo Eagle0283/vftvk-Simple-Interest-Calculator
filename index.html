@@ -17,7 +17,7 @@
         <label for="myslider" id="mylabel" class="lblFloat">Interest Rate</label>
         <p2>
         <input type="range" id="myslider" min="1" max="100"/>
-        <input type="text" id="mylabel" name="mylabel" size="1"></p2>%  
+        <input type="text" id="principal" name="mylabel" size="1"></p2>%  
         </div>
         </h3>
         <h4>
@@ -35,11 +35,13 @@
         <option value="10">10</option>
   </select>
           </p3>
-        </h4>   
-
+        </h4> 
         <h5>
-      <button onclick="compute()">Compute Interest</button>
-        </h5>
+      <input type="button" onclick="compute()" Value="Compute Interest"/>
+      </h5>
+      <h6>The Result is : <br>
+      <span id = "result"></span>
+      </h6>
         <p>&#169 Everyone Can Get Rich</p>
     </body>
 </html>
